@@ -248,6 +248,45 @@
       "type": "filter"
     },
     {
+      "borderColor": "#FF4CAF50",
+      "groupId": "gvc",
+      "id": "f7",
+      "imageURL": "https://raw.githubusercontent.com/vowl313/NardBadges/refs/heads/main/codec-hevc.png",
+      "isEnabled": true,
+      "name": "HEVC",
+      "pattern": "(?i)\\b(?:x?\\.?265|hevc|h\\.?265)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF9C27B0",
+      "groupId": "gvc",
+      "id": "f8",
+      "imageURL": "https://raw.githubusercontent.com/vowl313/NardBadges/refs/heads/main/codec-avc.png",
+      "isEnabled": true,
+      "name": "AVC",
+      "pattern": "(?i)\\b(?:x?\\.?264|avc|h\\.?264|mpeg-?4)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF2196F3",
+      "groupId": "gvc",
+      "id": "f9",
+      "imageURL": "https://raw.githubusercontent.com/vowl313/NardBadges/refs/heads/main/codec-av1.png",
+      "isEnabled": true,
+      "name": "AV1",
+      "pattern": "(?i)\\bav1\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
       "borderColor": "#FF00BCD4",
       "groupId": "ga",
       "id": "a-dtsx",
@@ -1360,6 +1399,13 @@
       "name": "Visual",
       "color": "#FFFF9800",
       "borderColor": "#FFFF9800",
+      "isExpanded": true
+    },
+    {
+      "id": "gvc",
+      "name": "Encoder",
+      "color": "#FF4CAF50",
+      "borderColor": "#FF4CAF50",
       "isExpanded": true
     },
     {
